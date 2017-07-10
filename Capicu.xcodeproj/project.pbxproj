@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300EBFD91E424E370014ACF7 /* wallpaperdm.png in Resources */ = {isa = PBXBuildFile; fileRef = 300EBFD81E424E370014ACF7 /* wallpaperdm.png */; };
+		302D6B241E5891D7000330AA /* Capicu.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D6B231E5891D7000330AA /* Capicu.png */; };
+		3091A81C1EF3204600297155 /* new-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3091A81B1EF3204600297155 /* new-logo.png */; };
+		3091A8211EF3217400297155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3091A8201EF3217400297155 /* Assets.xcassets */; };
+		3091A8241EF3236900297155 /* dominoes-wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 3091A8231EF3236900297155 /* dominoes-wallpaper.png */; };
+		30DDADA81F141F37007AFCA3 /* domino3.png in Resources */ = {isa = PBXBuildFile; fileRef = 30DDADA51F141F37007AFCA3 /* domino3.png */; };
+		30DDADA91F141F37007AFCA3 /* domino2.png in Resources */ = {isa = PBXBuildFile; fileRef = 30DDADA61F141F37007AFCA3 /* domino2.png */; };
+		30DDADAA1F141F37007AFCA3 /* domino4.png in Resources */ = {isa = PBXBuildFile; fileRef = 30DDADA71F141F37007AFCA3 /* domino4.png */; };
+		30E280CF1E4170FC00FBF900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E280CE1E4170FC00FBF900 /* AppDelegate.swift */; };
+		30E280D11E4170FC00FBF900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E280D01E4170FC00FBF900 /* ViewController.swift */; };
+		30E280D41E4170FC00FBF900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E280D21E4170FC00FBF900 /* Main.storyboard */; };
+		30E280D91E4170FC00FBF900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E280D71E4170FC00FBF900 /* LaunchScreen.storyboard */; };
+		30E280E11E41778500FBF900 /* TwoPlayersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E280E01E41778500FBF900 /* TwoPlayersController.swift */; };
+		30E280E31E41779900FBF900 /* ThreePlayersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E280E21E41779900FBF900 /* ThreePlayersController.swift */; };
+		30E280E51E4177AB00FBF900 /* FourPlayersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E280E41E4177AB00FBF900 /* FourPlayersController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300EBFD81E424E370014ACF7 /* wallpaperdm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallpaperdm.png; sourceTree = "<group>"; };
+		302D6B231E5891D7000330AA /* Capicu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capicu.png; sourceTree = "<group>"; };
+		3091A81B1EF3204600297155 /* new-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-logo.png"; sourceTree = "<group>"; };
+		3091A8201EF3217400297155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3091A8231EF3236900297155 /* dominoes-wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dominoes-wallpaper.png"; sourceTree = "<group>"; };
+		30DDADA51F141F37007AFCA3 /* domino3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = domino3.png; sourceTree = "<group>"; };
+		30DDADA61F141F37007AFCA3 /* domino2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = domino2.png; sourceTree = "<group>"; };
+		30DDADA71F141F37007AFCA3 /* domino4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = domino4.png; sourceTree = "<group>"; };
+		30E280CB1E4170FC00FBF900 /* Capicu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capicu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E280CE1E4170FC00FBF900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30E280D01E4170FC00FBF900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30E280D31E4170FC00FBF900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30E280D81E4170FC00FBF900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30E280DA1E4170FC00FBF900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E280E01E41778500FBF900 /* TwoPlayersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoPlayersController.swift; sourceTree = "<group>"; };
+		30E280E21E41779900FBF900 /* ThreePlayersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreePlayersController.swift; sourceTree = "<group>"; };
+		30E280E41E4177AB00FBF900 /* FourPlayersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourPlayersController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E280C81E4170FC00FBF900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3033F51A1F140F900013CD9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3033F51B1F140F960013CD9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30E280D21E4170FC00FBF900 /* Main.storyboard */,
+				30E280D71E4170FC00FBF900 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3033F51C1F140F9B0013CD9C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30E280D01E4170FC00FBF900 /* ViewController.swift */,
+				30E280E01E41778500FBF900 /* TwoPlayersController.swift */,
+				30E280E21E41779900FBF900 /* ThreePlayersController.swift */,
+				30E280E41E4177AB00FBF900 /* FourPlayersController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3091A8221EF3234400297155 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				30DDADA51F141F37007AFCA3 /* domino3.png */,
+				30DDADA61F141F37007AFCA3 /* domino2.png */,
+				30DDADA71F141F37007AFCA3 /* domino4.png */,
+				300EBFD81E424E370014ACF7 /* wallpaperdm.png */,
+				3091A8231EF3236900297155 /* dominoes-wallpaper.png */,
+				302D6B231E5891D7000330AA /* Capicu.png */,
+				3091A81B1EF3204600297155 /* new-logo.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		30E280C21E4170FC00FBF900 = {
+			isa = PBXGroup;
+			children = (
+				30E280CD1E4170FC00FBF900 /* Capicu */,
+				30E280CC1E4170FC00FBF900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30E280CC1E4170FC00FBF900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E280CB1E4170FC00FBF900 /* Capicu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E280CD1E4170FC00FBF900 /* Capicu */ = {
+			isa = PBXGroup;
+			children = (
+				3033F51C1F140F9B0013CD9C /* Controller */,
+				3033F51B1F140F960013CD9C /* View */,
+				3033F51A1F140F900013CD9C /* Model */,
+				3091A8221EF3234400297155 /* Assets */,
+				30E280CE1E4170FC00FBF900 /* AppDelegate.swift */,
+				3091A8201EF3217400297155 /* Assets.xcassets */,
+				30E280DA1E4170FC00FBF900 /* Info.plist */,
+			);
+			path = Capicu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30E280CA1E4170FC00FBF900 /* Capicu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E280DD1E4170FC00FBF900 /* Build configuration list for PBXNativeTarget "Capicu" */;
+			buildPhases = (
+				30E280C71E4170FC00FBF900 /* Sources */,
+				30E280C81E4170FC00FBF900 /* Frameworks */,
+				30E280C91E4170FC00FBF900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Capicu;
+			productName = Capicu;
+			productReference = 30E280CB1E4170FC00FBF900 /* Capicu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E280C31E4170FC00FBF900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SymphoLife;
+				TargetAttributes = {
+					30E280CA1E4170FC00FBF900 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6JJHGDTDRS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 30E280C61E4170FC00FBF900 /* Build configuration list for PBXProject "Capicu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30E280C21E4170FC00FBF900;
+			productRefGroup = 30E280CC1E4170FC00FBF900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E280CA1E4170FC00FBF900 /* Capicu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E280C91E4170FC00FBF900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3091A8241EF3236900297155 /* dominoes-wallpaper.png in Resources */,
+				3091A81C1EF3204600297155 /* new-logo.png in Resources */,
+				30DDADA91F141F37007AFCA3 /* domino2.png in Resources */,
+				30DDADAA1F141F37007AFCA3 /* domino4.png in Resources */,
+				302D6B241E5891D7000330AA /* Capicu.png in Resources */,
+				30E280D91E4170FC00FBF900 /* LaunchScreen.storyboard in Resources */,
+				30E280D41E4170FC00FBF900 /* Main.storyboard in Resources */,
+				3091A8211EF3217400297155 /* Assets.xcassets in Resources */,
+				30DDADA81F141F37007AFCA3 /* domino3.png in Resources */,
+				300EBFD91E424E370014ACF7 /* wallpaperdm.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E280C71E4170FC00FBF900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E280E11E41778500FBF900 /* TwoPlayersController.swift in Sources */,
+				30E280E51E4177AB00FBF900 /* FourPlayersController.swift in Sources */,
+				30E280D11E4170FC00FBF900 /* ViewController.swift in Sources */,
+				30E280CF1E4170FC00FBF900 /* AppDelegate.swift in Sources */,
+				30E280E31E41779900FBF900 /* ThreePlayersController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30E280D21E4170FC00FBF900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E280D31E4170FC00FBF900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30E280D71E4170FC00FBF900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E280D81E4170FC00FBF900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30E280DB1E4170FC00FBF900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30E280DC1E4170FC00FBF900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30E280DE1E4170FC00FBF900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6JJHGDTDRS;
+				INFOPLIST_FILE = Capicu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sympholife-anthony.Capicu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30E280DF1E4170FC00FBF900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6JJHGDTDRS;
+				INFOPLIST_FILE = Capicu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sympholife-anthony.Capicu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E280C61E4170FC00FBF900 /* Build configuration list for PBXProject "Capicu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E280DB1E4170FC00FBF900 /* Debug */,
+				30E280DC1E4170FC00FBF900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E280DD1E4170FC00FBF900 /* Build configuration list for PBXNativeTarget "Capicu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E280DE1E4170FC00FBF900 /* Debug */,
+				30E280DF1E4170FC00FBF900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E280C31E4170FC00FBF900 /* Project object */;
+}
